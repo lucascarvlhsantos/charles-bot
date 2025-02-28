@@ -36,7 +36,6 @@ def get_embedding_fun():
     # OPENAI EMBEDDINGS
     embeddings = OpenAIEmbeddings(
         model="text-embedding-ada-002",  # Modelo recomendado para embeddings
-        openai_api_key="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"
     )
     return embeddings
 
