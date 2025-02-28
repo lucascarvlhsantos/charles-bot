@@ -35,7 +35,8 @@ def existentes(db):
 def get_embedding_fun():
     # OPENAI EMBEDDINGS
     embeddings = OpenAIEmbeddings(
-        model="text-embedding-ada-002",  # Modelo recomendado para embeddings
+        model="text-embedding-ada-002",  # Modelo recomendado para embeddings,
+        openai_api_key="INSERIR_CHAVE_API"
     )
     return embeddings
 
