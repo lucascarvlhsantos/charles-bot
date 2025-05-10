@@ -1,1 +1,1 @@
-# charles-bot
+Versão 1.0.
